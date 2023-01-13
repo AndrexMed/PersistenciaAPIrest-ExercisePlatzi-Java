@@ -6,16 +6,16 @@ package com.mycompany.catsapp;
  */
 public class Gatos {
     
-    int id;
+    String id;
     String url;
     String apikey = "live_qCERh8aCZMh5eEIAaz4CX3bfFyk0UssQ0oXIaZu0syBzhFznBd4xs5H6WiIKBpkz";
     String image;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
